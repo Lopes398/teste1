@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paulo e larah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="Logo-Netflix-1024x430.png" alt="" width="50px">
+        </div>
+        <nav>
+            <a href="#"> Início </a>
+            <a href="#"> Séries </a>
+            <a href="#"> Filmes </a>
+            <a href="#"> Minha lista </a>
+        </nav>
+
+    </header>
+
+    <section class="banner">
+        <div class="conteudo">
+            <p class="titulo"> Paulo e Larah </p>
+            <p class="detalhes">
+                <span> 17 DE ABRIL - 1 TEMPORADA</span>
+                <span class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <p class="descricao">
+                    Desde a primeira vez que te vi, já sabia que você era especial e que nunca ia encontrar alguém como você em toda minha vida. Seu jeito, sua risada, sua preocupação exagerada e, principalmente, o jeito que Deus usa você. Nem nos meus melhores sonhos poderia encontrar alguém como você, e nem se ficasse 1 ano no Disney+ ia achar uma princesa tão linda. Seu olhar me hipnotiza todo dia, e todos os dias eu me apaixono por você de novo. Não importa como acaba o filme, o importante é que ele sempre inicia com você. Que Deus continue sendo glorificado no meio do amor que sinto por ti. Você é a menina mais incrível que alguém pode conhecer, e sou grato a Deus por Ele ter me dado essa honra. Eu te amo, pra todo o sempre, amém.
+                </p>
+                <div class="botoes">
+                    <button> <i class="fa-solid fa-play"></i>
+ Continuar </button>
+                    <button> <i class="fa-solid fa-star"></i>
+ Favorito </button>
+                </div>
+            </p>
+        </div>
+
+    </section>
+
+    <section class="momentos">
+        <h2>Nossos Melhores Momentos</h2>
+
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="./WhatsApp Image 2026-05-01 at 23.17.56 (1).jpeg" ></div>
+    <div class="swiper-slide"><img src="./WhatsApp Image 2026-05-01 at 23.17.56 (2).jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="./WhatsApp Image 2026-05-01 at 23.17.56 (3).jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="./WhatsApp Image 2026-05-01 at 23.17.56.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="./WhatsApp Image 2026-05-01 at 23.19.07.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="./WhatsApp Image 2026-05-01 at 23.17.56 (1).jpeg" ></div>
+    <div class="swiper-slide"><img src="./WhatsApp Image 2026-05-01 at 23.17.56 (2).jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="./WhatsApp Image 2026-05-01 at 23.17.56 (3).jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="./WhatsApp Image 2026-05-01 at 23.17.56.jpeg" alt=""></div>
+  </div>
+
+    </section>
+
+    <footer>
+        2026 - Paulo
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+            delay: 2500,
+                disableOnInteraction:false,
+
+            },
+            SlidesPerView:2,
+            paceBetween: 10,
+            loop: true,breakpoints: {
+                600: {
+                    loop:true,
+                    SlidesPerView:3,
+                    spaceBetween:15,
+                 }
+            }
+        
+        });
+    </script>
+    
+</body>
+</html>
